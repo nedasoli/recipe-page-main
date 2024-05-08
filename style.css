@@ -1,0 +1,84 @@
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --DarkCharcoal: hsl(24, 5%, 18%);
+    --Nutmeg: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+}
+
+    body{
+    background-color:var(--Eggshell);
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: Outfit;
+}
+main{
+    width: 55%;
+    background-color: var(--White);   
+    padding: 35px;
+    border-radius: 20px;
+    color: var(--Wenge-Brown);
+}
+img{
+    width: 100%;
+    border-radius: 16px;
+
+}
+.rose{
+    border-radius: 16px;
+    background-color: var(--Rose-White);
+    padding: 16px;
+}
+.raspberry{
+    color: var(--Dark-Raspberry);
+}
+.dark{
+    color: var(--Nutmeg);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+ol{
+    padding: 1.5rem;
+}
+ol li {
+    padding: 0 0 0.7rem 1rem;
+    line-height: 1.4rem;
+}
+li::marker {
+    font-weight: bold;
+    color: var(--Nutmeg);
+}
+h1{
+    font-family: "Young Serif", serif;
+}
+b{
+    color: var(--Dark-Charcoal);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+table tr{
+    border-bottom: 1px solid gray;
+}
+table th{
+    font-weight: normal;
+    padding: 12px;
+}
+table tr th:last-child{
+    color: var(--Nutmeg);
+}
+table tr:last-child{
+    border: none;
+}
+table tr th:last-child{
+    font-weight: 500;
+}
+
