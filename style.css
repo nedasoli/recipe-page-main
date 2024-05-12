@@ -20,14 +20,21 @@
 main{
     width: 55%;
     background-color: var(--White);   
-    padding: 35px;
     border-radius: 20px;
     color: var(--Wenge-Brown);
 }
+.content{
+    padding: 35px;
+    padding-top: 0;
+}
+h1{
+    color: var(--DarkCharcoal);
+}
 img{
-    width: 100%;
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0;
     border-radius: 16px;
-
 }
 .rose{
     border-radius: 16px;
@@ -82,3 +89,18 @@ table tr th:last-child{
     font-weight: 500;
 }
 
+@media screen and (max-width: 375px) {
+    body{
+        margin: 0;
+    }
+    main{
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    img{
+        width: 100%;
+        border-radius: 0;
+        margin: 0;
+    }
+}
